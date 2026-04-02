@@ -9,7 +9,7 @@ public class SistemTransaksi {
     private String idUnique;
     private double cashback;
     private double cashbackNormal;
-    private double saldo = 100000000;
+    private double saldo = 100000;
     private boolean blocked = false;
     private int authAttempts = 0;
 
