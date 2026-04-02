@@ -23,7 +23,7 @@ public class App {
                 case 0 -> System.out.println("Terima kasih telah menggunakan layanan Swalayan Tiny.");
                 default -> System.out.println("Pilihan tidak valid.");
             }
-        } while (pilihan != 0 && !system.isBlocked());
+        } while (pilihan != 0);
     }
 
     private static void pembelian() {
